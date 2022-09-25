@@ -1,0 +1,5 @@
+experiment,datetime,train.precision,train.recall,train.f1-score,train.support,valid.precision,valid.recall,valid.f1-score,valid.support,test.precision,test.recall,test.f1-score,test.support
+subset_224_efficientnetb0_transfer_trainable_datagen_epochs100_batchsize16_lr0.0005_reducelr_dropout0,10:56.4,0.983529038,0.983392948,0.983384222,15656,0.688340362,0.680060423,0.679834074,3310,0.667207897,0.659405358,0.658364308,3397
+subset_224_efficientnetb0_transfer_trainable_epochs100_batchsize16_lr0.0005_reducelr_dropout0,10:56.4,1,1,1,15656,0.714472725,0.710271903,0.709866079,3310,0.686429428,0.682955549,0.682008934,3397
+subset_224_efficientnetb3_transfer_trainable_datagen_epochs100_batchsize16_lr0.0005_reducelr_dropout0,10:56.4,0.985211401,0.985053654,0.985061549,15656,0.697111249,0.685196375,0.686079104,3310,0.675667565,0.659994112,0.663524988,3397
+subset_224_efficientnetb3_transfer_trainable_epochs100_batchsize16_lr0.0005_reducelr_dropout0,10:56.4,1,1,1,15656,0.714944589,0.714501511,0.713183147,3310,0.689023833,0.688254342,0.686918094,3397

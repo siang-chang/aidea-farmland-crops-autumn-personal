@@ -1,13 +1,13 @@
 # Data
 
-## fullset.pkl
-- [fullset.pkl](fullset.pkl) 為 [train_tag_loc_coor_describe_elevation.csv](train_tag_loc_coor_describe_elevation.csv) 完整版，資料筆數 **89514**，並預先以 **0.7:0.15:0.15** 的比例切分為 training、validation 與 testing set
+## train_split_fullset.pkl
+- [train_split_fullset.pkl](train_split_fullset.pkl) 為 [train_tag_loc_coor_describe_elevation.csv](train_tag_loc_coor_describe_elevation.csv) 完整版，資料筆數 **89514**，並預先以 **0.7:0.15:0.15** 的比例切分為 training、validation 與 testing set
 - 切分資料時皆有比照 `label`、`county_name` 欄位的分布
 - 2022.10.22 新增影像角度資訊，並修正寬度與高度
 
 
-## subset.pkl
-- [subset.pkl](subset.pkl) 為 [train_tag_loc_coor_describe_elevation.csv](train_tag_loc_coor_describe_elevation.csv) 之子集合 (**20%**)，資料筆數 **17899**，並預先以 **0.7:0.15:0.15** 的比例切分為 training、validation 與 testing set
+## train_split_subset.pkl
+- [train_split_subset.pkl](train_split_subset.pkl) 為 [train_tag_loc_coor_describe_elevation.csv](train_tag_loc_coor_describe_elevation.csv) 之子集合 (**20%**)，資料筆數 **17899**，並預先以 **0.7:0.15:0.15** 的比例切分為 training、validation 與 testing set
 - 2022.10.22 新增影像角度資訊，並修正寬度與高度
 - 切分資料時皆有比照 `label`、`county_name` 欄位的分布
 

@@ -34,7 +34,6 @@
     | macro avg    | 0.940     | 0.459  | 0.449    | 330      |
     | weighted avg | 0.916     | 0.912  | 0.905    | 330      |
 
-
     | 欄位名稱        | 欄位說明             |
     | --------------- | -------------------- |
     | file            | 檔案名稱             |
@@ -97,13 +96,15 @@
 
 
 ## train_split_fullset.pkl
-- [train_split_fullset.pkl](train_split_fullset.pkl) 為 [train_split_subset.csv](train_split_subset.csv) 的完整版，資料總共 89514 筆，並預先以 70:15:15 的比例切分為 training、validation 與 testing set
+- [train_split_fullset.pkl](train_split_fullset.pkl) 為 [train_split_subset.csv](train_split_subset.csv) 的完整版，資料總共 89514 筆，並預先以 85%、15% 的比例切分為訓練（Training）與驗證（Validation）資料集（早期有拆分 Testing 資料集，後來與 Training 合併）
+
 - 切分資料時皆有比照 `label`、`county_name` 欄位的分布
 - 2022.10.22 新增影像角度資訊，並修正寬度與高度
 
 
 ## train_split_subset.pkl
-- [train_split_subset.pkl](train_split_subset.pkl) 為 [train_tag_loc_coor_describe_elevation.csv](train_tag_loc_coor_describe_elevation.csv) 之子集合（20%），資料總共 17899 筆，並預先以 70:15:15 的比例切分為 training、validation 與 testing set
+- [train_split_subset.pkl](train_split_subset.pkl) 為 [train_tag_loc_coor_describe_elevation.csv](train_tag_loc_coor_describe_elevation.csv) 之子集合（20%），資料總共 17899 筆，並預先以 70%、15%、15% 的比例切分為訓練（Training）、驗證（Validation）與測試（Testing）資料集
+
 - 切分資料時皆有比照 `label`、`county_name` 欄位的分布
 - 2022.10.22 新增影像角度資訊，並修正寬度與高度
 

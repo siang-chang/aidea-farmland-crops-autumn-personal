@@ -152,6 +152,4 @@ cython_debug/
 #.idea/
 
 */tensorboard/**/**
-*/logs/**/**
 */data/**/*.pkl
-*/outputs/**/*.pkl

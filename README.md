@@ -1,4 +1,4 @@
-# aidea-farmland-crops-autumn
+# AIdea: Farmland and Crops - Autumn
 [AIdea 農地作物現況調查影像辨識競賽 - 秋季賽：AI作物影像判釋](https://aidea-web.tw/topic/5f632f38-7213-4d4d-bea3-117ff13c1afb)
 
 這個競賽與 [@Tsao666](https://github.com/Tsao666) 及 [@Tianming8585](https://github.com/Tianming8585) 共同參賽，我們的最終排名為 23/153

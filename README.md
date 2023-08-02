@@ -11,6 +11,8 @@
 
 本競賽（秋季賽）資料由行政院農業委員會提供，影像皆由專家進行分類，共 33 種類作物之標註資訊，並含有拍攝作業用之準心資訊，準心係協助專家判釋作物之依據。參賽隊伍須能使用 AI 正確辨識各影像之作物
 
+![image_crop_target_xy_70](./src/image/image_crop_target_xy_70.png)
+
 獲獎條件：在 Private Leaderboard 競賽名次前 25% 且各類別 F1-score 需大於 0.7
 
 ## 活動時間
